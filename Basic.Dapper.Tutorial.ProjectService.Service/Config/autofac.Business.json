@@ -1,0 +1,14 @@
+{
+    "defaultAssembly": "Basic.Dapper.Tutorial.ProjectService",
+    "components": [
+        {
+            "type": "Basic.Dapper.Tutorial.ProjectService.Business.ProjectService",
+            "services": [
+                {
+                    "type": "Basic.Dapper.Tutorial.ProjectService.Business.IProjectService"
+                }
+            ],
+            "injectProperties": true
+        }
+    ]
+}

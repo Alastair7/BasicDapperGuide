@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Basic.Dapper.Tutorial.ProjectService.Entities\Basic.Dapper.Tutorial.ProjectService.Entities.csproj" />
+    <ProjectReference Include="..\Basic.Dapper.Tutorial.ProjectService.Repository\Basic.Dapper.Tutorial.ProjectService.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
